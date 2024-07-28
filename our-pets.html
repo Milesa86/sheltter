@@ -4,23 +4,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
   <title>Document</title>
 </head>
 
 <body>
     <header class="header">
         <a href="/index.html" class="navigation__logo">
-            <span class="logo__title">Cozy House</span>
-            <span class="logo__subtitle">Shelter for pets in Boston</span>
-          </a>
-      <nav class="header__navigation">
-        <ul class="menu__list">
-          <li class="menu__item"><a href="/index.html" class="menu__link">About the shelter</a></li>
-          <li class="menu__item"><a href="" class="menu__link">Our pets</a></li>
-          <li class="menu__item"><a href="/index.html#help" class="menu__link">Help the shelter</a></li>
-          <li class="menu__item"><a href="/index.html#contacts" class="menu__link">Contacts</a></li>
-        </ul>
-      </nav>
+          <span class="logo__title">Cozy House</span>
+          <span class="logo__subtitle">Shelter for pets in Boston</span>
+        </a>
+    <nav class="header__navigation">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="/index.html" class="menu__link">About the shelter</a></li>
+        <li class="menu__item inactive-link"><a href="#" class="menu__link">Our pets</a></li>
+        <li class="menu__item"><a href="/index.html#help" class="menu__link">Help the shelter</a></li>
+        <li class="menu__item"><a href="/index.html#contacts" class="menu__link">Contacts</a></li>
+      </ul>
+    </nav> 
     </header>
     <main class="main">
         <section class="section">
@@ -75,6 +76,7 @@
           </section>
     </main>
     <footer class="footer" id="contacts">
+      <div class="container">
         <div class="footer__contacts">
           <h3 class="footer__header">
             For questions and suggestions
@@ -133,5 +135,7 @@
           </ul>
         </div>
         <img src="/assets/footer-puppy.png" alt="Puppy" class="footer__img">
+      </div>
+        
       </footer>
 </body>

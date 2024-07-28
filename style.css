@@ -1,1 +1,177 @@
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('/assets/fonts/georgia.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Georgia Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Italic'), url('/assets/fonts/georgiai.woff') format('woff');
+}
+
+/*Сброс стилей*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.wrapper {
+    background-image: url(/assets/background-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.header {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.logo__title {
+    font-family: 'Georgia Regular', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #f1cdb3;
+    letter-spacing: 0.06em;
+}
+
+.logo__subtitle {
+    padding-top: 10px;
+    padding-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.menu__list {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #cdcdcd;
+}
+
+.section {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+
+.description_about {
+    padding: 163px 50px;
+    max-width: 460px;
+}
+
+.section__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #cdcdcd;
+    padding-top: 25px;
     
+}
+
+.section_about{
+    padding-top: 52px;
+    margin-bottom: 42px;
+}
+
+.section__link {
+    background-color: #f1cdb3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    font-family: 'Georgia Regular', serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+
+}
+
+.section__header {
+    font-family: 'Georgia Regular', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.section_main-header {
+    font-family: 'Georgia Regular', serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #fff;
+}
+
+.description_friend {
+    max-width: 430px;
+}
+
+.section__slider {
+    display: flex;
+    gap: 90px;
+    margin-bottom: 60px;
+}
+
+.section__list {
+    display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 120px; 
+  margin-top: 60px;
+}
+
